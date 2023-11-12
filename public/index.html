@@ -8,14 +8,26 @@
 </head>
 <body>
   <div id="root">
-    <div></div>
-    <div>
-      <form action="/log" method="post">
+    <div class="hambuger">
+      <button class="hambugerBtn">🌐</button>
+      <div class="side">
+        <ul>
+          <li>Home</li>
+          <li>Profile</li>
+          <li>Settings</li>
+          <li>Logout</li>
+        </ul>
+      </div>
+    </div>
+    <div id="textBox">
+      <form id="messegeForm" action="/submit" method="post">
         <input type="text" id="messege">
-        <input type="submit" id="messegeBtn">
+        <input type="submit" id="messegeBtn" placeholder="전송">
       </form>
     </div>
-    <div id="rightLog"></div>
+    <div class="right">
+      <div id="rightLog"></div>
+    </div>
   </div>
   <script src="/public/js/index.js"></script>
 </body>
