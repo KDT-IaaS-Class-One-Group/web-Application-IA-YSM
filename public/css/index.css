@@ -6,5 +6,36 @@
 #root {
   width: 100vw;
   height: 100vh;
+  background-color: white;
   display: flex;
+  flex-direction: row;
+}
+.hambuger {
+  position: absolute;
+  height: 90vh;
+}
+.hambugerBtn {
+  font-size: 30px;
+  cursor: pointer;
+}
+#textBox {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 85vh;
+}
+input:nth-of-type(1) {
+  width: 50vw;
+  height: 7vh;
+  border-radius: 10px;
+}
+.right {
+  width: 30vw;
+  height: 80vh;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 2vh;
+  margin-right: 2vw;
 }
