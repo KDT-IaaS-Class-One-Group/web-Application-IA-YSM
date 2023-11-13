@@ -40,7 +40,7 @@ input:nth-of-type(1) {
   border-radius: 10px;
 }
 
-.right {
+#rightLog {
   width: 30vw;
   height: 80vh;
   background-color: white;
